@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Call of Valhalla</title>
+</head>
+<body>
+    <div class="main flex">
+        <div class="main__left flex">
+            <div class="logoBackground">
+                <div class="logo flex">
+                    <img src="odin-lined.png">ODIN
+                </div>
+            </div>
+        </div>
+        <div class="main__right flex">
+            <div class="right__promoText">
+                <p>You are a true warrior, forged in battle! But what’s next? The feast in Valhalla awaits you!
+                     Fill out the form, and Odin himself will send a longship for you!</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="right__Form flex"> 
+               <form action="#" method="POST">
+                    <p>TIME TO ENTER VALHALLA!</p> 
+                        <div class="formInputarea flex">
+                            <div class="form__columnLeft flex">
+                                <div class="form__input">
+                                    <label for="firstName">VIKINGS NAME</label>
+                                    <input type="text" id="firstName" minlength="3" maxlength="15" placeholder="Ragnar">
+                                </div>
+                                <div class="form__input">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" id="email">
+                                </div>
+                                <div class="form__input">
+                                    <label for="password1">SECRET SPELL</label>
+                                    <input type="password" aria-required="true" id="password1" required>
+                                </div>
+                            </div>
+                            <div class="form__columnRight flex">
+                                <div class="form__input"> 
+                                    <label for="lastName">A NICKNAME WORTHY OF SAGA</label>
+                                    <input type="text" id="lastName" minlength="3" maxlength="15" placeholder="Brown Pants">
+                                </div>
+                                <div class="form__input"> 
+                                    <label for="phoneNumber">Horn number for contact:</label>
+                                    <input type="tel" id="phoneNumber" id="phoneNumber" pattern="^\d{5,15}" title="Please enter a valid horn number, min 5 max 15. The local skald will call you back." ></div>
+                                <div class="form__input">
+                                    <label for="password2">CONFIRM SECRET SPELL</label>
+                                    <input type="password" aria-required="true" id="password2" required>
+                                </div>
+                            </div>
+                        </div> 
+                </div>
+                    <div class="form__buttonDiv"> 
+                        <div >
+                            <button type="submit">JOIN THE WAR BAND</button>
+                        </div>
+                        <div>
+                            <p class="textBefore">Already fought here before?  <a href="#">Enter the tavern</a></p>
+                        </div>
+                    </div>
+               </form>
+           
+        </div>
+     
+</body>
+</html>
