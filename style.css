@@ -109,11 +109,12 @@ input:valid {
 
 .logo {
     position: absolute;
-    left: 30%;
+    left: 50%;
     top: 10px;
     font-family: Norse, 'Times New Roman', Times, serif;
     font-size: 4rem;
     color: #fff;
+    transform: translate(-50%, 0);
 }
 
 .logo img {
